@@ -1,0 +1,211 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #9ba9eb;
+  background-size: cover;
+  min-height: 100vh;
+}
+.logo-container {
+  width: 23rem;
+  height: 10rem;
+  padding: 1.5rem;
+  margin-left: 1.1rem;
+  margin-top: 1.1rem;
+}
+.input-items-container {
+  background-color: #5763a5;
+  width: 50rem;
+  height: 75rem;
+  margin-left: 4rem;
+  margin-top: 0.1rem;
+  padding: 8rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40rem;
+  border-radius: 0.5rem;
+  margin-right: 1.5rem;
+  border: 0rem none;
+  box-shadow: 0rem 0.4rem 1.6rem 0rem #5763a5;
+  margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .input-items-container {
+    flex-direction: row;
+    width: 95rem;
+    height: 50rem;
+    justify-content: space-between;
+  }
+}
+.password-manager-image {
+  width: 30rem;
+  height: 30rem;
+  margin-bottom: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .picture-container {
+    order: 1;
+  }
+}
+.form-container {
+  background-color: #454f84;
+  background-size: cover;
+  width: 35rem;
+  height: 35rem;
+  padding: 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .form-container {
+    order: 0;
+  }
+}
+.main-heading {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 2rem;
+  margin-bottom: 1.8rem;
+}
+.input-container {
+  width: 90%;
+  height: 4.5rem;
+  padding: 0.2rem;
+  background-color: #f8fafc;
+  border-radius: 0.6rem;
+  margin-bottom: 2rem;
+}
+.input-icons {
+  width: 2rem;
+  margin-left: 1rem;
+  margin-top: 0.8rem;
+}
+.input-field {
+  float: right;
+  width: 85%;
+  height: 3.6rem;
+  padding: 1.5rem;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border-right: 0.001rem #94a3b8;
+  border-top: none;
+  border-bottom: none;
+  background-color: #f8fafc;
+}
+.button {
+  background-color: #0b69ff;
+  border: none;
+  padding: 0.9rem;
+  width: 30%;
+  color: #f8fafc;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3rem;
+}
+.password-items-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #5763a5;
+  width: 50rem;
+  height: 50rem;
+  margin-left: 4rem;
+  margin-top: 0.1rem;
+  margin-bottom: 5rem;
+  border: 0rem none;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0.4rem 1.6rem 0rem #5763a5;
+}
+@media screen and (min-width: 768px) {
+  .password-items-container {
+    width: 95rem;
+  }
+}
+.password-header-container {
+  display: flex;
+
+  padding: 2rem;
+}
+.heading {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 1.9rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  margin-right: 1rem;
+}
+.count-display {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 2rem;
+  border-color: #94a3b8;
+  border-radius: 0.5rem;
+  border-width: 0.2rem;
+  border-style: solid;
+  height: 3rem;
+  width: 5rem;
+  margin-top: 0rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  padding-bottom: 0.3rem;
+  margin-bottom: 0rem;
+  margin-right: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .count-display {
+    margin-right: 45rem;
+  }
+}
+.searchInput-container {
+  background-color: #f8fafc;
+  height: 4rem;
+  width: 24rem;
+  border-radius: 0.5rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+.icons-search {
+  width: 2rem;
+  margin-top: 0.9rem;
+  margin-bottom: 0rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.input-bar {
+  height: 2rem;
+  width: 10rem;
+  padding: 1rem;
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+  font-weight: 500;
+  background-color: #f8fafc;
+  margin-bottom: 0rem;
+  font-family: 'roboto';
+  margin-top: 0rem;
+}
+.noPassword-img {
+  width: 31rem;
+}
+.line {
+  color: #94a3b8;
+  width: 90%;
+  height: 0.1rem;
+}
+.checkBox-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+.noPasswordImg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
