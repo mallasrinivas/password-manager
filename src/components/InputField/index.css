@@ -14,7 +14,7 @@
 }
 .input-items-container {
   background-color: #5763a5;
-  width: 50rem;
+  width: 43rem;
   height: 75rem;
   margin-left: 4rem;
   margin-top: 0.1rem;
@@ -50,7 +50,7 @@
 .form-container {
   background-color: #454f84;
   background-size: cover;
-  width: 35rem;
+  width: 33rem;
   height: 35rem;
   padding: 1.5rem;
   border: none;
@@ -112,7 +112,7 @@
   display: flex;
   flex-direction: column;
   background-color: #5763a5;
-  width: 50rem;
+  width: 43rem;
   height: 50rem;
   margin-left: 4rem;
   margin-top: 0.1rem;
@@ -208,4 +208,12 @@
   flex-direction: column;
   align-items: center;
   margin: 2rem;
+}
+.list-items-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0px;
+  margin-top: 24px;
 }

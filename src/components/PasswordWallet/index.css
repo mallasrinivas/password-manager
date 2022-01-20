@@ -1,0 +1,62 @@
+.list-item-container {
+  display: flex;
+  background-color: transparent;
+  color: white;
+  font-family: 'Roboto';
+  border-radius: 0.5rem;
+  list-style-type: none;
+  border: 0.2rem solid aliceblue;
+  width: 50rem;
+  padding-bottom: 1rem;
+  justify-content: flex-start;
+  margin: 1rem;
+  margin-right: 1.5rem;
+}
+
+.initial-section {
+  color: white;
+  background-color: #f59e0b;
+  border-radius: 6rem;
+  padding: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
+  height: 3rem;
+  font-family: 'Roboto';
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.text-cont {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.heading {
+  font-size: 2rem;
+}
+
+.para {
+  font-size: 1.4rem;
+}
+
+.button-cont {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: 0rem none;
+  padding: 1rem;
+}
+
+.delete-icon {
+  height: 2rem;
+  width: 2rem;
+}
